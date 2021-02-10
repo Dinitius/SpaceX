@@ -12,17 +12,8 @@
     margin-top: 0;
 }
 
-.title:after {
-    content: "";
-    display: block;
-    width: 1px;
-    height: 60px;
-    background-color: #fff;
-    margin: 26px auto auto;
-}
-
 .video-container {
-    max-width: 1230px;
+    max-width: 1000px;
     margin: 0 auto;
 }
 
