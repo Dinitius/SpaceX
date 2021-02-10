@@ -1,0 +1,155 @@
+/* стартовые */
+html {
+	box-sizing: border-box;
+}
+
+*,
+*::before,
+*::after {
+	box-sizing: inherit;
+}
+
+body {
+	background: #010001;
+	min-width: 320px;
+	color: #fff;
+	font-size: 16px;
+	line-height: 1;
+	margin: 0;
+	font-family: "Roboto", sans-serif;
+}
+
+button, input {
+	font: inherit;
+}
+
+img {
+	max-width: 100%;
+	height: auto;
+}
+
+a {
+	text-decoration: none;
+	color: inherit;
+	cursor: pointer;
+}
+
+ul {
+	list-style: none;
+	padding: 0;
+	margin: 0;
+}
+
+h1, h2, h3, p {
+	padding: 0;
+	margin: 0;
+}
+
+.container {
+	max-width: 1280px;
+	margin: 0 auto;
+	padding: 0 25px;
+}
+
+
+.list {
+	margin: 0;
+	padding: 0;
+	display: flex;
+	list-style: none;
+}
+
+.item-link {
+	color: #ffffff;
+	text-decoration: none;
+	margin-left: 10px;
+	margin-right: 10px;
+	font-size: 12px;
+	line-height: 14px;
+}
+
+/* header */
+
+
+
+/* main */
+
+
+/* features */
+
+
+
+
+/* footer */
+
+.footer {
+	padding: 130px 0;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	text-align: center;
+}
+
+.footer-nav .item-link {
+	font-size: 18px;
+	line-height: 21px;
+}
+
+.footer .logo {
+	margin-bottom: 43px;
+}
+
+.footer-nav {
+	margin-bottom: 28px;
+}
+
+.footer-text {
+	font-size: 18px;
+	line-height: 21px;
+	color: #808080;
+	text-decoration: none;
+	margin-top: 0;
+	margin-bottom: 30px;
+}
+
+.footer-link {
+	color: #808080;
+	text-decoration: none;
+}
+
+.button {
+	color: #fff;
+	min-width: 260px;
+	padding: 20px;
+	text-align: center;
+	border: 2px solid #ffffff;
+	box-sizing: border-box;
+	border-radius: 6px;
+	text-decoration: none;
+}
+
+@media (max-width: 576px) {
+
+	.footer-nav .list {
+		flex-wrap: wrap;
+		align-items: center;
+		justify-content: center;
+	}
+
+	.footer-nav .item {
+		margin-bottom: 10px;
+	}
+
+	.footer {
+		text-align: center;
+	}
+}
+
+/* calendar */
+
+
+
+/* details */
+
+
+/* end */
